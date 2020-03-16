@@ -1,0 +1,68 @@
+GitHub là gì? Sử dụng GitHub để làm gì? Và các thuật ngữ cần biết
+ Hub là gì?
+Repository
+Branch
+Pull Request
+Fork một Repository
+GitHub không chỉ dành cho lập trình viên
+
+Tóm lại, GitHub là gì?
+  GitHub là một hệ thống quản lý dự án và phiên bản code, hoạt động giống như một mạng xã hội cho lập trình viên. Nhưng cách sử dụng GitHub như thế nào? Nó sử dụng để hợp tác nhiều người lại với nhau, từ mọi nơi trên thế giới, lên kế hoạch, theo dõi và làm chung một dự án.
+
+  GitHub cũng là một nền tảng lưu trữ online lớn nhất trên thế giới về các dự án nhiều người làm.
+
+GitHub là gì?
+
+  Git là gì?
+
+    Trước tiên, chúng ta cần phải biết rõ Git là gì trước, vì nó là trái tim của GitHub. Git là một hệ quản trị phiên bản được phát triển bởi Linus Torvalds (tên rất quen phải không, người tạo ra Linux đó).
+
+  Vậy, hệ quản trị phiên bản – version control system là gì?
+
+    Khi lập trình viên tạo một dự án mới, họ sẽ cần liên tục cập nhật mã nguồn. Kể cả khi dự án đã được xuất bản, họ vẫn cần phải cập nhật các phiên bản mới cho nó, sửa lỗi, thêm tính năng, vâng vâng.
+
+    Hệ quản trị phiên bản sẽ giúp giám sát những thay đổi của code. Hơn thế nữa, nó còn lưu lại thông tin ai thay đổi gì để có thể khôi phục code cũ bị xóa hoặc code đã từng được sửa.     
+
+    Codes không được ghi đè lên nhau vì Git lưu nhiều phiên bản copies trong repository (thư viện) của nó. Nếu bạn thích tìm hiểu thêm về Git, bạn có thể đọc thêm tại đây (tiếng Anh).
+
+  Hub là gì?
+    Nếu Git là trái tim của GitHub thì Hub lại là phần hồn của nó. Hub trong GitHub là nơi biến những dòng lệnh, Git, thành một mạng xã hội khổng lồ cho lập trình viên.
+
+    Bên cạnh đóng góp vào những dự án chính, GitHub còn cho phép người dùng tương tác theo kiểu mạng xã hội. Bạn có thể theo dõi, và xem những người bạn thích làm gì, họ đang kết nối với ai, vâng vâng.
+
+  Repository
+    Repository hay repo là một thư viện nơi chứa các files của dự án. Nó có thể đặt trong bộ lưu trữ của GitHub hoặc trong repository của máy tính local. Bạn có thể chứa files code, hình ảnh, âm thanh hoặc mọi thứ liên quan đến dự án trong một repository.
+
+  Branch
+    Branch là một bản sao của repository. Bạn có thể sử dụng Branch để triển khai dự án theo hướng cô lập không ảnh hưởng đến dự án chính.
+
+    Làm việc với branch vì vậy sẽ không ảnh hưởng tới repostiroy chính hoặc những branches khác. Nếu bạn hoàn tất công việc, bạn có thể “Merge” (nhập) branch vào những branch khác khoặc repository chính bằng cách dùng lệnh Pull Request
+
+  Pull Request
+    Pull request có nghĩa là bạn thông báo với những người khác rằng bạn đã đẩy những thay đổi của Branch lên Repository tổng (master respository). Các cộng tác viên của repository này ẽ có chấp nhật hoặc từ chối pull request này. Khi nó được mở ra, bạn có thể thảo luận và xem lại công việc với những người cùng làm khác.
+
+Các bước để tạo một pull request trong GitHub là:
+
+  Chuyển tới repository và tìm menu branch
+  Trong branch menu, chọn branch chứa thay đổi của bạn
+  Nhấn vào nút New pull request bên cạnh menu branch
+  Thêm tiêu đề và mô tả vào pull request của bạn
+  Nhấn nút Create pull request
+Fork một Repository
+  Fork một repository (forking a repository) có nghĩa là bạn tạo một dự án mới dựa trên dự án cũ. Tức là, sao chép hoàn toàn một repository đã tồn tạo, tạo ra các thay đổi cần thiết, và lưu phiên bản mới này dưới dạng một repository độc lập hoàn toàn mới và gọi nó là dự án của riêng bạn.
+
+  Tính năng này vô cùng tiện lợi để đẩy nhanh tiến độ dự án. Vì là một dứ án hoàn toàn mới, repository chính sẽ không bị ảnh hưởng. Nếu repostiory master được cập nhật, bạn cũng có thể áp dụng các cập nhật đó lên bản fork của bạn.
+
+Các bước để fork một repository trong GitHub là:
+
+  Tìm repository bạn muốn fork
+  Nhấn vào nút Fork
+  GitHub không chỉ dành cho lập trình viên
+  GitHub là một nền tảng tuyệt vời đã thay đổi cách hoạt động của lập trình viên. Tuy nhiên, bất kỳ ai muốn quản lý dự án hữu hiệu cũng có thể tham gia vào GitHub và hợp tác làm chung dự án để đạt hiệu quả cao nhất.
+
+Nếu đội ngũ của bạn làm trong một dự án cần cập nhật liên tục và cần giám sát toàn bộ các thay đổi, GitHub là dành cho bạn. Những giải pháp tương tự GitHub khác là GitLab, BitBucket, nhưng chúng tôi vẫn khuyên bạn dùng GitHub.
+
+Tóm lại, GitHub là gì?
+  GitHub là sự kết hợp giữa 2 từ, Git – hệ thống quản lý dự án và phiên bản code và Hub – một mạng xã hội cho lập trình viên. GitHub được sử dụng chủ yếu cho dự án có nhiều người cùng hợp tác và cần giám sát toàn bộ thay đổi của dự án, cũng như để ngõ khả năng khôi phục code khi cần thiết. Khi sử dụng GitHub, ngoài các công việc chính như tạo Branch, tạo Pull Request và Fork một Repository, bạn có thể theo dõi, tương tác với người khác như một mạng xã hội thông thường.
+
+  Bạn có kinh nghiệm sử dụng GitHub và cần bổ sung gì khác? Hãy cho chúng tôi biết trong phần bình luận bên dưới nhé. Nếu vẫn chưa rõ GitHub là gì, cũng đừng ngại hãy đưa ra thắc mắc của bạn.
